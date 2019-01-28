@@ -1,0 +1,5 @@
+input_string = input("What is your first name? ")
+input_strong = input("What is your last name? ")
+age = int(input("What is your age? "))
+confidence = int(input("What is your confidence in programmers between 0-100%? "))
+dog_age = int(age * 7)

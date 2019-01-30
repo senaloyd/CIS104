@@ -4,7 +4,9 @@ author_name = input("Enter the name of the author: ")
 publish_year = int(input("Enter the publish year of the book: "))
 pages_total = int(input("Enter the total number of pages in the book: "))
 
-book_age = 2019 - publish_year
+current_year = 2019
+book_age = current_year - publish_year
+
 
 # 1st if-else statement 
 if (book_age <= 10):

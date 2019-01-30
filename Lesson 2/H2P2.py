@@ -9,7 +9,7 @@ book_age = current_year - publish_year
 
 # 1st if-else statement 
 if (book_age <= 10):
-    print("This book is younger than 10 years old.")
+    print("This book is younger than ten years old.")
 else:
     print("The book is at least ten years old.")
 
